@@ -39,7 +39,7 @@ const MapView = () => {
       <MapContainer center={[20, 0]} zoom={2} scrollWheelZoom={false} style={{ height: '600px', width: '100%' }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         {eventsData.map(event => {
-          const coords = locationCoords[event.location] || [20, 0]; // Default if location missing
+          const coords = locationCoords[event.location] || [20, 0];
           return (
             <Marker key={event.id} position={coords}>
               <Popup>
