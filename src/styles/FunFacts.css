@@ -154,7 +154,6 @@
   }
 }
 
-/* Optional background animation for vibe */
 .fun-facts-card::before {
   content: "";
   position: absolute;
