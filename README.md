@@ -86,11 +86,8 @@ ChronoSphere/
 ├── App.js                  # Root component
 ├── index.js                # Entry point
 └── README.md               # Project documentation
-
----
-
+```
 👨‍💻 Author
 Satyam Kumar Mishra
 🔗 LinkedIn
 💼 GitHub
-
