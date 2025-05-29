@@ -135,7 +135,6 @@
   user-select: none;
 }
 
-/* Hover effect on card */
 .fun-facts-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(30, 144, 255, 0.7);
