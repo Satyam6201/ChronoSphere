@@ -34,6 +34,25 @@
 
 ---
 
+🌙 Theme Toggle
+ChronoSphere includes Dark/Light Mode toggling for enhanced accessibility and visual appeal.
+Toggle implementation uses state and dynamic className changes across major components.
+
+📅 Future Enhancements
+🧠 AI-powered historical insights
+
+🌐 API-based real-world event data
+
+📆 Add user-selectable date ranges
+
+🎨 Custom themes for users
+
+🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+📜 License
+This project is open-source and available under the MIT License.
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -69,25 +88,6 @@ ChronoSphere/
 └── README.md               # Project documentation
 
 ---
- 
-🌙 Theme Toggle
-ChronoSphere includes Dark/Light Mode toggling for enhanced accessibility and visual appeal.
-Toggle implementation uses state and dynamic className changes across major components.
-
-📅 Future Enhancements
-🧠 AI-powered historical insights
-
-🌐 API-based real-world event data
-
-📆 Add user-selectable date ranges
-
-🎨 Custom themes for users
-
-🙌 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-
-📜 License
-This project is open-source and available under the MIT License.
 
 👨‍💻 Author
 Satyam Kumar Mishra
