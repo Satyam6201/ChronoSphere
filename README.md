@@ -1,12 +1,96 @@
-# React + Vite
+# 🕰️ ChronoSphere – Time Travel UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ChronoSphere** is an interactive and visually immersive timeline explorer that lets users travel through historical events across various eras. It features a timeline, interactive map, time slider, and fun facts to create a unique time-travel-like experience.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [ChronoSphere on Vercel](https://chrono-sphere-iota.vercel.app/)  
+📂 **GitHub Repository:** [github.com/Satyam6201/ChronoSphere](https://github.com/Satyam6201/ChronoSphere)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 **Explore Historical Events:** View key global events categorized by eras.
+- 📜 **Timeline View:** A dynamic event timeline with elegant cards and transitions.
+- 🗺️ **Interactive Map:** Geographic mapping of events for spatial visualization.
+- 🎚️ **Time Slider:** Slide through time to see the evolution of history.
+- 🎭 **Dark & Light Mode:** Toggle between modern dark and light themes.
+- 🤯 **Fun Facts:** Random historical facts for an engaging experience.
+- 📱 **Responsive Design:** Seamless experience across devices.
+
+---
+
+## 🖼️ Preview
+
+![ChronoSphere Preview](https://chrono-sphere-iota.vercel.app/preview-image.png) <!-- Replace this with an actual screenshot if available -->
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js
+- **Styling:** CSS3 (Glassmorphism, Flexbox/Grid, Responsive Design)
+- **Data Handling:** Local `eventsData.js`
+- **Map Integration:** Basic Map Visualization with event markers (custom implementation)
+
+---
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Satyam6201/ChronoSphere.git
+
+# 2. Navigate to the project directory
+cd ChronoSphere
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+
+
+## 📁 Folder Structure
+
+ChronoSphere/
+│
+├── public/
+│
+├── src/
+│   ├── components/         # Reusable UI components (Timeline, MapView, Slider, etc.)
+│   ├── data/               # Historical events data (eventsData.js)
+│   ├── styles/             # CSS styling for components and layout
+│   └── pages/              # Main page components (Home.js)
+│
+├── App.js                  # Root component
+├── index.js                # Entry point
+└── README.md               # Project documentation
+
+---
+ 
+🌙 Theme Toggle
+ChronoSphere includes Dark/Light Mode toggling for enhanced accessibility and visual appeal.
+Toggle implementation uses state and dynamic className changes across major components.
+
+📅 Future Enhancements
+🧠 AI-powered historical insights
+
+🌐 API-based real-world event data
+
+📆 Add user-selectable date ranges
+
+🎨 Custom themes for users
+
+🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+📜 License
+This project is open-source and available under the MIT License.
+
+👨‍💻 Author
+Satyam Kumar Mishra
+🔗 LinkedIn
+💼 GitHub
+
