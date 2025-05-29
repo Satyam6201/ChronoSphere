@@ -19,12 +19,6 @@
 
 ---
 
-## 🖼️ Preview
-
-![ChronoSphere Preview](https://chrono-sphere-iota.vercel.app/preview-image.png) <!-- Replace this with an actual screenshot if available -->
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js
@@ -89,5 +83,6 @@ ChronoSphere/
 ```
 👨‍💻 Author
 Satyam Kumar Mishra
-🔗 LinkedIn
-💼 GitHub
+
+🔗 LinkedIn https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/
+💼 GitHub https://github.com/Satyam6201
