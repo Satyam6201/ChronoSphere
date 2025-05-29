@@ -23,7 +23,6 @@ const FunFacts = () => {
   const timeoutRef = useRef(null);
 
   useEffect(() => {
-    // Reset fade effect on fact change
     setFade(false);
     clearTimeout(timeoutRef.current);
     timeoutRef.current = setTimeout(() => setFade(true), 100);
