@@ -81,7 +81,7 @@ ChronoSphere/
 ├── index.js                # Entry point
 └── README.md               # Project documentation
 ```
-<p>👨‍💻 <strong>Author</strong>: Satyam Kumar Mishra</p>
-<p>🔗 <a href="https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/" target="_blank">LinkedIn</a></p>
-<p>💼 <a href="https://github.com/Satyam6201" target="_blank">GitHub</a></p>
+👨‍💻 **Author**: Satyam Kumar Mishra  
+🔗 [LinkedIn](https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/)  
+💼 [GitHub](https://github.com/Satyam6201)
 
