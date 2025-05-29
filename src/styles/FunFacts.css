@@ -174,7 +174,6 @@
   background: radial-gradient(circle at center, #0d47a144, transparent 70%);
 }
 
-/* Make sure content is above background */
 .fun-facts-card > * {
   position: relative;
   z-index: 1;
