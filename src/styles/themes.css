@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #000428;
+  color: white;
+}
+.era-filter {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.era-filter button {
+  background: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.time-slider {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider-label {
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+.map-view {
+  margin-top: 2rem;
+  font-style: italic;
+}

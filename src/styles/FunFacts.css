@@ -1,0 +1,201 @@
+/* Base card styling */
+.fun-facts-card {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  user-select: none;
+  position: relative;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Light theme overrides */
+.fun-facts-card.light {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #222;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.fun-facts-card:focus {
+  box-shadow: 0 0 0 3px #1e90ff;
+}
+
+/* Theme toggle button */
+.theme-toggle-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 15px;
+  transition: background 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  background: rgba(255 255 255 / 0.2);
+}
+
+/* Title */
+.fun-title {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  user-select: none;
+}
+
+/* Fact text */
+.fun-fact-text {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 1rem 0 2rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+  min-height: 5em;
+  user-select: text;
+  transition: opacity 0.4s ease;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* Controls container */
+.fun-fact-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.fun-fact-btn {
+  background: #ffffff22;
+  border: 2px solid #ffffff55;
+  color: inherit;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow:
+    8px 8px 15px rgba(0, 0, 0, 0.25),
+    -8px -8px 15px rgba(255, 255, 255, 0.1);
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fun-fact-btn:hover,
+.fun-fact-btn:focus {
+  background: #ffffff44;
+  box-shadow:
+    inset 2px 2px 5px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  outline: none;
+}
+
+.like-btn {
+  color: #ff4d6d;
+  border-color: #ff4d6daa;
+  background: #ff4d6d33;
+}
+
+.like-btn:hover,
+.like-btn:focus {
+  background: #ff4d6d55;
+  box-shadow:
+    inset 2px 2px 5px rgba(255, 77, 109, 0.7),
+    inset -2px -2px 5px rgba(255, 77, 109, 0.3);
+}
+
+/* Fact progress */
+.fact-progress {
+  font-size: 0.9rem;
+  color: #aaa;
+  user-select: none;
+}
+
+/* Hover effect on card */
+.fun-facts-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(30, 144, 255, 0.7);
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+/* Fade in animation for initial load */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional background animation for vibe */
+.fun-facts-card::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: -30%;
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(circle at center, #1e90ff44, transparent 70%);
+  filter: blur(80px);
+  z-index: 0;
+  pointer-events: none;
+  transition: background 0.5s ease;
+  border-radius: 25px;
+}
+
+.fun-facts-card.light::before {
+  background: radial-gradient(circle at center, #0d47a144, transparent 70%);
+}
+
+/* Make sure content is above background */
+.fun-facts-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive typography */
+@media (max-width: 480px) {
+  .fun-facts-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .fun-title {
+    font-size: 1.8rem;
+  }
+
+  .fun-fact-text {
+    font-size: 1.1rem;
+  }
+
+  .fun-fact-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
