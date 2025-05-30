@@ -403,9 +403,7 @@ const eventsData = [
   category: 'Space Age',
   location: 'Low Earth Orbit',
   image: '/assets/iss.jpg',
-}
-
-    
+} 
 ];
 
 export default eventsData;
