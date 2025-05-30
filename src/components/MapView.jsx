@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import eventsData from '../data/eventsData';  // Adjust path as needed
+import eventsData from '../data/eventsData'; 
 import '../styles/MapView.css';
 
 // Location to coordinates mapping
