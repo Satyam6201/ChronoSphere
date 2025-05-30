@@ -133,7 +133,6 @@
   transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 
-/* Fade in animation for initial load */
 @keyframes fadeIn {
   from {
     opacity: 0;
