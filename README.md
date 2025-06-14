@@ -51,7 +51,6 @@ This project is open-source and available under the MIT License.
 
 ## ⚙️ Setup Instructions
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/Satyam6201/ChronoSphere.git
 
@@ -64,6 +63,7 @@ npm install
 # 4. Start the development server
 npm start
 
+```bash
 
 ## 📁 Folder Structure
 
